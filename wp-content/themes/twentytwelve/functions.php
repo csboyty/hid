@@ -485,13 +485,13 @@ function zy_load_resource($hook){
         Object.freeze(zy_config); //锁定对象
         </script>";
 
-        wp_enqueue_script("zy_common",$zy_template_url.'/js/app/zy_common.js');
-        wp_enqueue_script("zy_juicer_js",$zy_template_url.'/js/lib/juicer-min.js');
+        wp_enqueue_script("zy_common",$zy_template_url.'/js/backend/src/zy_common.js');
+        wp_enqueue_script("zy_juicer_js",$zy_template_url.'/js/backend/lib/juicer-min.js');
 
         //引入文章页面的js
-        wp_enqueue_script("zy_post",$zy_template_url.'/js/app/zy_post.js');
+        wp_enqueue_script("zy_post",$zy_template_url.'/js/backend/src/zy_post.js');
         //引入自定义的css
-        wp_enqueue_style("zy_main_css",$zy_template_url.'/css/app/zy_post.css');
+        wp_enqueue_style("zy_main_css",$zy_template_url.'/css/backend/src/zy_post.css');
 
 
         return ;
@@ -512,17 +512,17 @@ function zy_load_resource($hook){
         Object.freeze(zy_config); //锁定对象
          </script>";
 
-        wp_enqueue_script("zy_common",$zy_template_url.'/js/app/zy_common.js');
-        wp_enqueue_script("zy_juicer_js",$zy_template_url.'/js/lib/juicer-min.js');
+        wp_enqueue_script("zy_common",$zy_template_url.'/js/backend/src/zy_common.js');
+        wp_enqueue_script("zy_juicer_js",$zy_template_url.'/js/backend/lib/juicer-min.js');
         wp_enqueue_script("plupload");
         wp_enqueue_script("plupload-html5");
 
 
         //引入文章页面的js
-        wp_enqueue_script("zy_slide",$zy_template_url.'/js/app/zy_slide.js');
+        wp_enqueue_script("zy_slide",$zy_template_url.'/js/backend/src/zy_slide.js');
 
         //引入自定义的css
-        wp_enqueue_style("zy_main_css",$zy_template_url.'/css/app/zy_slide.css');
+        wp_enqueue_style("zy_main_css",$zy_template_url.'/css/backend/src/zy_slide.css');
 
         return ;
 
