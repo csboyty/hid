@@ -350,7 +350,7 @@ img.wp-smiley {
     content: "";
     width: 62px;
     height: 62px;
-    background: url(images/backend/app/video_tag.png) no-repeat;
+    background: url(images/app/video_tag.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -360,7 +360,7 @@ img.wp-smiley {
     content: "";
     width: 62px;
     height: 62px;
-    background: url(images/backend/app/video_tag.png) no-repeat;
+    background: url(images/app/video_tag.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -370,7 +370,7 @@ img.wp-smiley {
     content: "";
     width: 62px;
     height: 62px;
-    background: url(images/backend/app/3d_tag.png) no-repeat;
+    background: url(images/app/3d_tag.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -380,7 +380,7 @@ img.wp-smiley {
     content: "";
     width: 62px;
     height: 62px;
-    background: url(images/backend/app/ppt_tag.png) no-repeat;
+    background: url(images/app/ppt_tag.png) no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
